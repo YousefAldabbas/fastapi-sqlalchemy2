@@ -11,6 +11,8 @@ This project aims to demonstrate the transition from using SQLAlchemy v1 to SQLA
 4. Ensure That This Change Doesn't Alter the Table Schema
 5. Rerun the Tests
 
+## Why SQLAlchemy v2?
+SQLAlchemy v2 is the latest version of the SQLAlchemy library. It introduces `Mapped` and `Mapped_column`, which are the new ways to define models in SQLAlchemy. These features help in type checking and make the code more readable.
 
 ## Conclusion
 By following these steps, we aim to seamlessly upgrade our FastAPI project from SQLAlchemy v1 to SQLAlchemy v2 while maintaining the stability and reliability of our application. This transition not only allows us to leverage the enhanced features of SQLAlchemy v2 but also ensures compatibility with future updates and improvements.
